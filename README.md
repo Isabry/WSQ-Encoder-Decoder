@@ -27,7 +27,7 @@ val wsqData: ByteArray = WSQEncoder(bitmap)
 Decoding an image:
 ```kotlin
 val bitmap: Bitmap = WSQDecoder.decode(wsqData).bitmap
-imgView.setImageBitmap(bitmap);
+imgView.setImageBitmap(bitmap)
 ```
 
 
